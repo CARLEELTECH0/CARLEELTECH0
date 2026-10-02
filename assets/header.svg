@@ -1,43 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" width="100%" height="260" fill="none">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Arctic Glacier Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070a12"/>
-      <stop offset="40%" stop-color="#0b1120"/>
-      <stop offset="100%" stop-color="#040711"/>
+      <stop offset="0%" stop-color="#030813"/>
+      <stop offset="45%" stop-color="#071527"/>
+      <stop offset="100%" stop-color="#02060d"/>
     </linearGradient>
 
-    <!-- Border Gradient -->
+    <!-- Ice Blue to Mint Blue Border Gradient -->
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
-      <stop offset="35%" stop-color="#818cf8" stop-opacity="0.5"/>
-      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#34d399" stop-opacity="0.7"/>
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.65"/>
+      <stop offset="70%" stop-color="#5eead4" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.95"/>
     </linearGradient>
 
-    <!-- Title Gradient -->
-    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="30%" stop-color="#60a5fa"/>
-      <stop offset="65%" stop-color="#a78bfa"/>
+    <!-- Ice Blue to Mint Blue Title Gradient -->
+    <linearGradient id="ice-mint-title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="25%" stop-color="#bae6fd"/>
+      <stop offset="50%" stop-color="#7dd3fc"/>
+      <stop offset="75%" stop-color="#5eead4"/>
       <stop offset="100%" stop-color="#2dd4bf"/>
     </linearGradient>
 
-    <!-- Badge Gradient -->
+    <!-- Sub-Badge Gradient -->
     <linearGradient id="badge-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.15"/>
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.25"/>
     </linearGradient>
 
     <!-- Pill Gradient -->
     <linearGradient id="pill-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+      <stop offset="0%" stop-color="#0f2238" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#071527" stop-opacity="0.95"/>
     </linearGradient>
 
     <!-- Grid Pattern -->
-    <pattern id="grid-pattern" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.8" fill="#38bdf8" fill-opacity="0.15"/>
+    <pattern id="grid-pattern" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#7dd3fc" fill-opacity="0.16"/>
     </pattern>
 
     <style>
@@ -57,10 +58,10 @@
         animation: ripple 2s infinite ease-out;
       }
       text {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'SF Pro Display', Roboto, 'Fira Code', monospace, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
       }
       .mono {
-        font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Roboto Mono', monospace;
+        font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
       }
     </style>
   </defs>
@@ -68,76 +69,76 @@
   <!-- Base Card Background -->
   <rect x="2" y="2" width="916" height="256" rx="18" fill="url(#bg-grad)"/>
   <rect x="2" y="2" width="916" height="256" rx="18" fill="url(#grid-pattern)"/>
-  <rect x="2" y="2" width="916" height="256" rx="18" stroke="url(#border-grad)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="256" rx="18" stroke="url(#border-grad)" stroke-width="1.6"/>
 
   <!-- Top UI Header Bar -->
-  <rect x="2" y="2" width="916" height="42" rx="18" fill="#0b1120" fill-opacity="0.85"/>
-  <line x1="2" y1="44" x2="918" y2="44" stroke="#1e293b" stroke-width="1"/>
+  <rect x="2" y="2" width="916" height="42" rx="18" fill="#071527" fill-opacity="0.9"/>
+  <line x1="2" y1="44" x2="918" y2="44" stroke="#132c47" stroke-width="1"/>
 
-  <!-- Window Controls (macOS Traffic Lights) -->
+  <!-- Window Controls (macOS Traffic Lights with Mint Accent) -->
   <circle cx="28" cy="23" r="6" fill="#ff5f56"/>
   <circle cx="48" cy="23" r="6" fill="#ffbd2e"/>
-  <circle cx="68" cy="23" r="6" fill="#27c93f"/>
+  <circle cx="68" cy="23" r="6" fill="#2dd4bf"/>
 
   <!-- Terminal Breadcrumb / Session ID -->
-  <rect x="94" y="12" width="230" height="22" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.75"/>
-  <text x="106" y="27" fill="#94a3b8" font-size="11" font-weight="600" class="mono">carleel@cyberdeck // ~ (zsh)</text>
+  <rect x="94" y="12" width="236" height="22" rx="6" fill="#0b1e33" fill-opacity="0.85" stroke="#1b3a5c" stroke-width="0.8"/>
+  <text x="106" y="27" fill="#7dd3fc" font-size="11" font-weight="600" class="mono">carleel@cyberdeck // ~ (zsh)</text>
 
   <!-- Live Status Beacon (Right Side) -->
   <g transform="translate(680, 23)">
-    <circle cx="0" cy="0" r="8" fill="none" stroke="#34d399" class="beacon-ring"/>
-    <circle cx="0" cy="0" r="4" fill="#34d399" class="beacon-core"/>
-    <text x="14" y="4" fill="#34d399" font-size="11" font-weight="700" letter-spacing="0.8" class="mono">SYSTEM ACTIVE // ONLINE</text>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#5eead4" class="beacon-ring"/>
+    <circle cx="0" cy="0" r="4" fill="#5eead4" class="beacon-core"/>
+    <text x="14" y="4" fill="#5eead4" font-size="11" font-weight="700" letter-spacing="0.8" class="mono">SYSTEM ACTIVE // ONLINE</text>
   </g>
 
   <!-- Sub-Badge Category -->
   <g transform="translate(48, 72)">
-    <rect x="0" y="0" width="316" height="24" rx="6" fill="url(#badge-grad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-    <text x="12" y="16" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="1" class="mono">◈ MECHATRONICS &amp; CYBER-PHYSICAL SYSTEMS ◈</text>
+    <rect x="0" y="0" width="316" height="24" rx="6" fill="url(#badge-grad)" stroke="#5eead4" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="12" y="16" fill="#7dd3fc" font-size="11" font-weight="700" letter-spacing="1" class="mono">◈ MECHATRONICS &amp; CYBER-PHYSICAL SYSTEMS ◈</text>
   </g>
 
-  <!-- Hero Name Typography -->
+  <!-- Hero Name Typography: JIMOH KHALILULAH OLAMILEKAN -->
   <g transform="translate(48, 134)">
-    <text x="0" y="0" fill="url(#title-grad)" font-size="36" font-weight="900" letter-spacing="-0.5">FAMAKINWA ADEDEJI</text>
-    <text x="428" y="-2" fill="#475569" font-size="24" font-weight="300">|</text>
-    <text x="446" y="-1" fill="#f8fafc" font-size="20" font-weight="800" letter-spacing="1.8" class="mono">CARLEELTECH</text>
+    <text x="0" y="0" fill="url(#ice-mint-title)" font-size="29" font-weight="900" letter-spacing="-0.3">JIMOH KHALILULAH OLAMILEKAN</text>
+    <text x="515" y="-2" fill="#334d68" font-size="22" font-weight="300">|</text>
+    <text x="535" y="-1" fill="#7dd3fc" font-size="18" font-weight="800" letter-spacing="1.5" class="mono">CARLEELTECH</text>
   </g>
 
   <!-- Subtitle / Bio Pitch -->
-  <text x="48" y="166" fill="#94a3b8" font-size="14.5" font-weight="400" letter-spacing="0.2">
-    Autonomous AI Systems Architect <tspan fill="#38bdf8">•</tspan> Embedded Robotics <tspan fill="#38bdf8">•</tspan> Hardware-Software Convergence
+  <text x="48" y="166" fill="#bae6fd" font-size="14.5" font-weight="400" letter-spacing="0.2">
+    Autonomous AI Systems Architect <tspan fill="#5eead4">•</tspan> Embedded Robotics <tspan fill="#5eead4">•</tspan> Hardware-Software Convergence
   </text>
 
-  <!-- Bottom Bento Pill Arsenal -->
+  <!-- Bottom Bento Pill Arsenal (Ice Blue & Mint Blue theme) -->
   <g transform="translate(48, 195)">
     <!-- Pill 1: Robotics -->
     <g transform="translate(0, 0)">
-      <rect width="150" height="34" rx="8" fill="url(#pill-grad)" stroke="#334155" stroke-width="1"/>
-      <text x="12" y="21" fill="#38bdf8" font-size="12" font-weight="600">🛰️ Autonomous Rover</text>
+      <rect width="150" height="34" rx="8" fill="url(#pill-grad)" stroke="#164e63" stroke-width="1"/>
+      <text x="12" y="21" fill="#7dd3fc" font-size="12" font-weight="600">🛰️ Autonomous Rover</text>
     </g>
 
     <!-- Pill 2: ESP32 -->
     <g transform="translate(162, 0)">
-      <rect width="150" height="34" rx="8" fill="url(#pill-grad)" stroke="#334155" stroke-width="1"/>
-      <text x="12" y="21" fill="#818cf8" font-size="12" font-weight="600">⚡ ESP32 &amp; FreeRTOS</text>
+      <rect width="150" height="34" rx="8" fill="url(#pill-grad)" stroke="#134e4a" stroke-width="1"/>
+      <text x="12" y="21" fill="#5eead4" font-size="12" font-weight="600">⚡ ESP32 &amp; FreeRTOS</text>
     </g>
 
     <!-- Pill 3: AI Agents -->
     <g transform="translate(324, 0)">
-      <rect width="145" height="34" rx="8" fill="url(#pill-grad)" stroke="#334155" stroke-width="1"/>
-      <text x="12" y="21" fill="#c084fc" font-size="12" font-weight="600">🤖 Agentic AI &amp; MCP</text>
+      <rect width="145" height="34" rx="8" fill="url(#pill-grad)" stroke="#164e63" stroke-width="1"/>
+      <text x="12" y="21" fill="#bae6fd" font-size="12" font-weight="600">🤖 Agentic AI &amp; MCP</text>
     </g>
 
     <!-- Pill 4: Hardware & CAD -->
     <g transform="translate(481, 0)">
-      <rect width="155" height="34" rx="8" fill="url(#pill-grad)" stroke="#334155" stroke-width="1"/>
-      <text x="12" y="21" fill="#34d399" font-size="12" font-weight="600">🛠️ KiCad &amp; FreeCAD</text>
+      <rect width="155" height="34" rx="8" fill="url(#pill-grad)" stroke="#134e4a" stroke-width="1"/>
+      <text x="12" y="21" fill="#2dd4bf" font-size="12" font-weight="600">🛠️ KiCad &amp; FreeCAD</text>
     </g>
 
     <!-- Pill 5: Full-Stack -->
     <g transform="translate(648, 0)">
-      <rect width="170" height="34" rx="8" fill="url(#pill-grad)" stroke="#334155" stroke-width="1"/>
-      <text x="12" y="21" fill="#f43f5e" font-size="12" font-weight="600">🌐 Distributed SaaS/API</text>
+      <rect width="170" height="34" rx="8" fill="url(#pill-grad)" stroke="#164e63" stroke-width="1"/>
+      <text x="12" y="21" fill="#67e8f9" font-size="12" font-weight="600">🌐 Distributed SaaS/API</text>
     </g>
   </g>
 </svg>
