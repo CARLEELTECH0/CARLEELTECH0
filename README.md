@@ -226,16 +226,16 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/CARLEELTECH0">
-    <img src="https://img.shields.io/badge/Identity-Jimoh%20Khalilulah%20Olamilekan-7DD3FC?style=for-the-badge&logo=github&logoColor=040914" alt="Jimoh Khalilulah Olamilekan" />
+  <a href="mailto:jimohkhalilulaholamilekan@gmail.com">
+    <img src="https://img.shields.io/badge/Email-jimohkhalilulaholamilekan%40gmail.com-7DD3FC?style=for-the-badge&logo=gmail&logoColor=040914" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://wa.me/2347081433528">
+    <img src="https://img.shields.io/badge/Direct%20Call%20%2F%20WhatsApp-07081433528-5EEAD4?style=for-the-badge&logo=whatsapp&logoColor=040914" alt="WhatsApp / Phone" />
   </a>
   &nbsp;
   <a href="https://github.com/CARLEELTECH0">
-    <img src="https://img.shields.io/badge/Brand-CARLEELTECH-5EEAD4?style=for-the-badge&logo=probot&logoColor=040914" alt="CARLEELTECH" />
-  </a>
-  &nbsp;
-  <a href="tel:+2348135960962">
-    <img src="https://img.shields.io/badge/Direct%20Call-08135960962-2DD4BF?style=for-the-badge&logo=whatsapp&logoColor=040914" alt="Phone" />
+    <img src="https://img.shields.io/badge/GitHub-CARLEELTECH0-2DD4BF?style=for-the-badge&logo=github&logoColor=040914" alt="GitHub" />
   </a>
   &nbsp;
   <a href="https://eternal-magnetar.vercel.app" target="_blank">
